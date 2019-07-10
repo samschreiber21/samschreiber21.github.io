@@ -19,3 +19,42 @@ nav a {
 a:visited,a:link{
     color: white;
 }
+
+header{
+    padding-top: 38px;
+    background-image: url("http://viterbivoices.usc.edu/wp-content/uploads/2015/10/downtown-la-skyline.jpg");
+    background-size: cover;
+  }
+
+
+.slide {
+    height: 75vh;
+    background-color: brown;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+div h1{
+    color: black;
+    font-size: 2.5em;
+}
+ 
+#my-profile-pic{
+    background-image: url("https://cdn.wallpapersafari.com/23/61/u9HeVP.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60%;
+    width: 40%;
+}
+
+#my-profile-details{
+    width: 60%;
+    height: 100%;
+    background-color: red;
+}
+
+
